@@ -21,6 +21,21 @@
       }
     </style>
   <link href="./output.css" rel="stylesheet">
+  <style>
+    @keyframes marquee {
+      0% {
+        transform: translateX(100%);
+      }
+
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    .animate-marquee {
+      animation: marquee 15s linear infinite;
+    }
+  </style>
 </head>
 
 <body class="">
@@ -76,6 +91,65 @@
         </div>
       </div>
     </section>
+    <!-- Hero section-1 -->
+    <section class="dark:bg-gray-100 dark:text-gray-800">
+      <div class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+        <div class="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+          <img src="/images/hero-1.jpg" alt=""
+            class="object-contain rounded-3xl h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+        </div>
+        <div class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+          <h1 class="text-5xl font-bold leading-none sm:text-6xl">Ac mattis
+            <span class="dark:text-violet-600">senectus</span>erat pharetra
+          </h1>
+          <p class="mt-6 mb-8 text-lg sm:mb-12">Dictum aliquam porta in condimentum ac integer
+            <br class="hidden md:inline lg:hidden">turpis pulvinar, est scelerisque ligula sem
+          </p>
+          <p class="mt-6 mb-8 text-lg sm:mb-12">Dictum aliquam porta in condimentum ac integer
+            <br class="hidden md:inline lg:hidden">turpis pulvinar, est scelerisque ligula sem
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section-2 -->
+    <section class="dark:bg-gray-100 dark:text-gray-800">
+      <div class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-6 lg:flex-row lg:justify-between">
+        <div class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+          <h1 class="text-5xl font-bold leading-none sm:text-6xl">Ac mattis
+            <span class="dark:text-violet-600">senectus</span>erat pharetra
+          </h1>
+          <p class="mt-6 mb-8 text-lg sm:mb-12">Dictum aliquam porta in condimentum ac integer
+            <br class="hidden md:inline lg:hidden">turpis pulvinar, est scelerisque ligula sem
+          </p>
+          <div
+            class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+            <a rel="noopener noreferrer" href="#"
+              class="px-8 py-3 text-lg bg-orange-600 text-gray-100 font-semibold border rounded dark:border-gray-800">Malesuada</a>
+          </div>
+        </div>
+        <div class="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+          <img src="/images/hero-2.jpg" alt=""
+            class="object-contain rounded-3xl h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+        </div>
+      </div>
+    </section>
+    <!-- Hero section-3 -->
+    <div class="overflow-hidden whitespace-nowrap bg-white text-white py-2">
+      <p class="animate-marquee flex gap-4">
+      <img class="w-40 h-42 rounded-3xl" src="/images/marquee/1.jpg" alt="">
+      <img class="w-40 h-42 rounded-3xl" src="/images/marquee/2.jpg" alt="">
+      <img class="w-40 h-42 rounded-3xl"  src="/images/marquee/3.jpg" alt="">
+      <img class="w-40 h-42 rounded-3xl" src="/images/marquee/4.jpg" alt="">
+      <img class="w-40 h-42 rounded-3xl" src="/images/marquee/5.jpg" alt="">
+      <img class="w-40 h-42 rounded-3xl" src="/images/marquee/6.jpg" alt="">
+      <img class="w-40 h-42 rounded-3xl" src="/images/marquee/1.jpg" alt="">
+      <img class="w-40 h-42 rounded-3xl" src="/images/marquee/2.jpg" alt="">
+      <img class="w-40 h-42 rounded-3xl"  src="/images/marquee/3.jpg" alt="">
+      <img class="w-40 h-42 rounded-3xl" src="/images/marquee/4.jpg" alt="">
+      <img class="w-40 h-42 rounded-3xl" src="/images/marquee/5.jpg" alt="">
+      <img class="w-40 h-42 rounded-3xl" src="/images/marquee/6.jpg" alt="">
+      </p>
+    </div>
   </main>
   <footer class="px-20 bg-blue-900 mt-4 divide-y text-white dark:bg-gray-100 dark:text-gray-800">
     <div class="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
